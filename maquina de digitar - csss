@@ -1,0 +1,32 @@
+
+#bloco-1qwe h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: type 7s steps(60, end) 1s 3;
+  width: 100%;
+  margin: 0 auto;
+}
+#bloco-1qwe h6 {
+  white-space: nowrap;
+  overflow: hidden;
+  animation: type2 7s steps(60, end) 1s 3;
+  width: 100%;
+  margin: 0 auto;
+}
+@keyframes type {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  34% {
+    width: 0;
+  }
+  100% {
+    width: 100;
+  }
+}
